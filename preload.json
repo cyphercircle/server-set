@@ -1,0 +1,12 @@
+{
+  "cluster": {
+    "vms": 3,
+    "workers": 10
+  },
+  "cache": true,
+  "onnx": true,
+  "quantum": true,
+  "security": {
+    "jobSigning": true
+  }
+}

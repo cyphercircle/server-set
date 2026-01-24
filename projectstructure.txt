@@ -1,0 +1,48 @@
+termsc-p1/
+├── cluster/
+│   ├── cluster.yaml
+│   ├── nodes.yaml
+│   ├── static_ip.yaml
+│   └── universities.json
+│
+├── scheduler/
+│   ├── scheduler.py
+│   ├── workload_balancer.py
+│   ├── buffer_manager.py
+│   └── geo_scheduler.py
+│
+├── workers/
+│   ├── worker_runtime.py
+│   ├── classical_worker.py
+│   ├── neural_worker.py
+│   ├── quantum_worker.py
+│   └── subprocess_pool.py
+│
+├── neural/
+│   ├── graph_builder.py
+│   ├── model_state.py
+│   └── swap_engine.py
+│
+├── quantum/
+│   ├── circuit.py
+│   ├── gates.py
+│   └── simulator.py
+│
+├── dashboard/
+│   ├── frontend/
+│   │   ├── redux/
+│   │   ├── map/
+│   │   └── control_panel/
+│   └── backend/
+│       └── api.py
+│
+├── storage/
+│   ├── db_schema.sql
+│   └── persistence.py
+│
+├── installer/
+│   ├── install_termux.sh
+│   ├── bootstrap_cluster.sh
+│   └── devcontainer.json
+│
+└── README.md

@@ -1,0 +1,54 @@
+{
+  "institution": {
+    "name": "Technical University of Munich",
+    "city": "Munich",
+    "country": "Germany",
+    "lat": 48.1500,
+    "lon": 11.5800
+  },
+
+  "core": {
+    "router": "10.0.0.1",
+    "backbone": "40GbE"
+  },
+
+  "subnets": [
+    {
+      "name": "HPC-CENTER",
+      "cidr": "10.0.10.0/24",
+      "role": "compute",
+      "nodes": 64
+    },
+    {
+      "name": "AI-LAB",
+      "cidr": "10.0.20.0/24",
+      "role": "gpu-nn",
+      "nodes": 32
+    },
+    {
+      "name": "QUANTUM-SIM",
+      "cidr": "10.0.30.0/24",
+      "role": "quantum",
+      "nodes": 16
+    },
+    {
+      "name": "EDGE-TERMUX",
+      "cidr": "10.0.40.0/24",
+      "role": "edge",
+      "nodes": 128
+    }
+  ],
+
+  "services": {
+    "scb-controller": "10.0.10.5:9090",
+    "scheduler": "10.0.10.6:9091",
+    "dashboard": "10.0.10.7:8080",
+    "federation": "10.0.10.8:9443"
+  },
+
+  "security": {
+    "auth": "signed-jobs",
+    "hash": "sha256",
+    "tls": true
+  }
+}

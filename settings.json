@@ -1,0 +1,499 @@
+{
+    "animation": "yes",
+    "appTheme": "system",
+    "autosave": 0,
+    "fileBrowser": {
+        "showHiddenFiles": false,
+        "sortByName": true
+    },
+    "formatter": {},
+    "maxFileSize": 12,
+    "serverPort": 8158,
+    "previewPort": 8158,
+    "showConsoleToggler": true,
+    "previewMode": "inapp",
+    "disableCache": false,
+    "useCurrentFileForPreview": false,
+    "host": "localhost",
+    "search": {
+        "caseSensitive": false,
+        "regExp": false,
+        "wholeWord": false
+    },
+    "lang": "de-DE",
+    "fontSize": "12px",
+    "editorTheme": "ace/theme/crimson_editor",
+    "textWrap": true,
+    "softTab": true,
+    "tabSize": 2,
+    "retryRemoteFsAfterFail": false,
+    "linenumbers": true,
+    "formatOnSave": false,
+    "fadeFoldWidgets": false,
+    "autoCorrect": true,
+    "openFileListPos": "header",
+    "quickTools": 2,
+    "quickToolsTriggerMode": "touch",
+    "editorFont": "Roboto Mono",
+    "vibrateOnTap": true,
+    "fullscreen": false,
+    "floatingButton": true,
+    "liveAutoCompletion": true,
+    "showPrintMargin": false,
+    "printMargin": 80,
+    "scrollbarSize": 20,
+    "showSpaces": false,
+    "confirmOnExit": true,
+    "lineHeight": 2,
+    "leftMargin": 50,
+    "checkFiles": true,
+    "checkForAppUpdates": true,
+    "desktopMode": false,
+    "console": "legacy",
+    "keyboardMode": "NO_SUGGESTIONS_AGGRESSIVE",
+    "rememberFiles": true,
+    "rememberFolders": true,
+    "diagonalScrolling": false,
+    "reverseScrolling": false,
+    "teardropTimeout": 3000,
+    "teardropSize": 30,
+    "scrollSpeed": "NORMAL",
+    "customTheme": {
+        "name": "Custom",
+        "type": "dark",
+        "version": "free",
+        "popupBorderRadius": "4px",
+        "activeColor": "rgb(51, 153, 255)",
+        "activeTextColor": "rgb(255, 215, 0)",
+        "activeIconColor": "rgba(0, 0, 0, 0.2)",
+        "borderColor": "rgba(122, 122, 122, 0.2)",
+        "boxShadowColor": "rgba(0, 0, 0, 0.2)",
+        "buttonActiveColor": "rgb(44, 142, 240)",
+        "buttonBackgroundColor": "rgb(51, 153, 255)",
+        "buttonTextColor": "rgb(255, 255, 255)",
+        "errorTextColor": "rgb(255, 185, 92)",
+        "primaryColor": "rgb(153, 153, 255)",
+        "primaryTextColor": "rgb(255, 255, 255)",
+        "secondaryColor": "rgb(255, 255, 255)",
+        "secondaryTextColor": "rgb(37, 37, 37)",
+        "linkTextColor": "rgb(97, 94, 253)",
+        "scrollbarColor": "rgba(0, 0, 0, 0.3)",
+        "popupBorderColor": "rgba(0, 0, 0, 0)",
+        "popupIconColor": "rgb(153, 153, 255)",
+        "popupBackgroundColor": "rgb(255, 255, 255)",
+        "popupTextColor": "rgb(37, 37, 37)",
+        "popupActiveColor": "rgb(169, 0, 0)",
+        "dangerColor": "rgb(160, 51, 0)",
+        "dangerTextColor": "rgb(255, 255, 255)",
+        "fileTabWidth": "120px"
+    },
+    "relativeLineNumbers": false,
+    "elasticTabstops": false,
+    "rtlText": false,
+    "hardWrap": false,
+    "useTextareaForIME": false,
+    "touchMoveThreshold": 0.15,
+    "quicktoolsItems": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+    ],
+    "excludeFolders": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/jspm_packages/**",
+        "**/.npm/**",
+        "**/flow-typed/**",
+        "**/vendor/**",
+        "**/composer/**",
+        "**/venv/**",
+        "**/.virtualenv/**",
+        "**/__pycache__/**",
+        "**/.pytest_cache/**",
+        "**/.eggs/**",
+        "**/*.egg-info/**",
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/.vscode/**",
+        "**/.idea/**",
+        "**/.vs/**",
+        "**/.project/**",
+        "**/.settings/**",
+        "**/.classpath/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/out/**",
+        "**/target/**",
+        "**/bin/**",
+        "**/obj/**",
+        "**/coverage/**",
+        "**/.nyc_output/**",
+        "**/htmlcov/**",
+        "**/temp/**",
+        "**/tmp/**",
+        "**/.cache/**",
+        "**/logs/**",
+        "**/.sass-cache/**",
+        "**/.DS_Store/**",
+        "**/Thumbs.db/**"
+    ],
+    "defaultFileEncoding": "UTF-8",
+    "inlineAutoCompletion": true,
+    "colorPreview": true,
+    "maxRetryCount": 3,
+    "showRetryToast": false,
+    "showSideButtons": true,
+    "showAnnotations": false,
+    "pluginsDisabled": {
+        "com.arman260802.javascript.snippets": true
+    },
+    "acode.python.custom": {
+        "serverPath": "python",
+        "arguments": [
+            "-m",
+            "pyright.langserver",
+            "--stdio"
+        ],
+        "languageClientConfig": {
+            "initializationOptions": {
+                "completion": {
+                    "disableSnippets": false,
+                    "resolveEagerly": false,
+                    "ignorePatterns": []
+                },
+                "diagnostics": {
+                    "enable": true,
+                    "didOpen": true,
+                    "didChange": true,
+                    "didSave": true
+                }
+            }
+        }
+    },
+    "acode.python.fmt": {
+        "indent_style": "tab",
+        "indent_width": 8,
+        "line_length": 88,
+        "line_ending": "auto",
+        "quote_style": "double",
+        "skip_magic_trailing_comma": true,
+        "docstring_code_format": true
+    },
+    "acode.java.client": {
+        "serverPath": "/data/data/com.termux/files/home/jdtls/"
+    },
+    "acode.bash.client": {
+        "serverPath": "bash-language-server",
+        "arguments": [
+            "start"
+        ],
+        "languageClientConfig": {}
+    },
+    "acode.language.client": {
+        "hover": true,
+        "format": true,
+        "completion": true,
+        "completionResolve": true,
+        "replaceCompleters": true,
+        "codelens": true,
+        "breadcrumbs": true,
+        "reconnectDelay": 1,
+        "closeTimeout": 180,
+        "breadcrumbTimeout": 1000,
+        "url": "ws://localhost:3030/"
+    },
+    "acode.yaml.server": {
+        "serverPath": "yaml-lsp",
+        "arguments": [
+            "--stdio"
+        ]
+    },
+    "acode.plugin.jdts": {
+        "serverPath": "jdtls",
+        "arguments": [],
+        "languageClientConfig": {
+            "initializationOptions": {}
+        }
+    },
+    "acode.golang.server": {
+        "serverPath": "gopls",
+        "arguments": [
+            "-v",
+            "serve"
+        ],
+        "languageClientConfig": {
+            "initializationOptions": {
+                "usePlaceholders": true,
+                "completeUnimported": true,
+                "hints": {
+                    "assignVariableTypes": true,
+                    "compositeLiteralFields": true,
+                    "compositeLiteralTypes": true,
+                    "constantValues": true,
+                    "functionTypeParameters": true,
+                    "parameterNames": true,
+                    "rangeVariableTypes": true
+                }
+            }
+        }
+    },
+    "acode.kotlin.server": {
+        "serverPath": "kotlin-language-server",
+        "arguments": [],
+        "languageClientConfig": {
+            "initializationOptions": {}
+        }
+    },
+    "terminalSettings": {
+        "fontSize": 12,
+        "fontFamily": "MesloLGS NF Regular",
+        "fontWeight": "normal",
+        "cursorBlink": true,
+        "cursorStyle": "block",
+        "cursorInactiveStyle": "outline",
+        "scrollback": 1000,
+        "theme": "dark",
+        "tabStopWidth": 4,
+        "convertEol": true,
+        "letterSpacing": 0,
+        "imageSupport": false,
+        "fontLigatures": false,
+        "confirmTabClose": true,
+        "touchSelectionTapHoldDuration": 600,
+        "touchSelectionMoveThreshold": 8,
+        "touchSelectionHandleSize": 24,
+        "touchSelectionHapticFeedback": true,
+        "touchSelectionShowContextMenu": true
+    },
+    "acode.plugin.ace_linters": {
+        "html": true,
+        "css": true,
+        "javascript": true,
+        "json": true,
+        "yaml": true,
+        "xml": true,
+        "lua": true,
+        "php": true,
+        "python": true,
+        "autocomplete": true
+    },
+    "bajrangcoder.bs.intellisense": {
+        "bootstrapUrl": "https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.css"
+    },
+    "acode.terminal": {
+        "theme": "xterm",
+        "command": "bash",
+        "backend": "termux",
+        "host": "http://localhost:9001",
+        "cursorBlink": true,
+        "fontSize": 11,
+        "fontFamily": null,
+        "scrollBack": 1000,
+        "scrollSensitivity": 200,
+        "cursorStyle": "block",
+        "cursorInactiveStyle": "outline"
+    },
+    "x.discord.rpc": {
+        "presence": {
+            "isAFK": false
+        },
+        "config": {
+            "token": null,
+            "forceOffline": false,
+            "showProjectName": true,
+            "showFileName": true
+        }
+    },
+    "customjs": {
+        "autoReload": true,
+        "autoReloadDelay": 100,
+        "autoSave": false,
+        "autoSaveDelay": 5000,
+        "enabled": true,
+        "showLogs": false,
+        "position": "body",
+        "type": "classic"
+    },
+    "acode.hot.reload": {
+        "websocketUrl": "ws://localhost:3000"
+    },
+    "customcss": {
+        "autoReload": true,
+        "autoReloadDelay": 1000,
+        "autoSave": false,
+        "autoSaveDelay": 5000,
+        "enabled": true,
+        "showLogs": false
+    },
+    "plugin.acode.fstucture": {
+        "fstucture_disable": false,
+        "fstucture_backpopup": 180000
+    },
+    "acode.plugin.header.comment.inserter": {
+        "author": "Anonymous",
+        "template": "{{COMMENT_START}}\nCopyright (c) [{{year}}] [{{author}}]\nFilename: {{filename}}\n{{COMMENT_END}}\n",
+        "hasHeader": "Copyright\\s*\\(c\\)"
+    },
+    "code.metrics": {
+        "theme": "dark",
+        "autoUpdate": true,
+        "updateDelay": 300,
+        "showBasicMetrics": true,
+        "showAdvancedMetrics": true,
+        "showComplexity": true,
+        "showMaintainability": true,
+        "showHistory": true,
+        "showErrorCounts": true,
+        "historyLength": 10,
+        "complexityThreshold": 15,
+        "maintainabilityThreshold": 60,
+        "enableNotifications": false
+    },
+    "acode.plugin.canvasApi": {
+        "snippetLocation": ""
+    },
+    "devilhunter.cpp.snippets": {
+        "snippetDocs": false
+    },
+    "acode.rust.client": {
+        "serverCommand": "rust-analyzer"
+    },
+    "rsjronilson.mini.map": {
+        "fontSize": 10
+    },
+    "acode.php.client": {
+        "serverPath": "/data/data/com.termux/files/usr/bin/phpactor"
+    },
+    "thunder.plugin.terminal.quick_button": {
+        "terminalOpen": "Header icon"
+    },
+    "acode.plugin.sass": {
+        "outputDir": "",
+        "watch": true,
+        "style": "expanded",
+        "precision": -1,
+        "indent": "space",
+        "indentWidth": 2,
+        "comments": false,
+        "linefeed": "lf",
+        "sourceMapContents": true,
+        "sourceMapEmbed": false,
+        "sourceMapOmitUrl": true
+    },
+    "bajrangcoder.acodex": {
+        "port": 8767,
+        "serverHost": "localhost",
+        "aiApiKey": "",
+        "aiModel": "deepseek",
+        "transparency": false,
+        "selectionHaptics": true,
+        "fontLigatures": true,
+        "enableGuiViewer": false,
+        "imageRendering": false,
+        "showTerminalBtnSize": 35,
+        "showTerminalBtn": true,
+        "blurValue": "4px",
+        "cursorBlink": true,
+        "cursorStyle": "block",
+        "cursorInactiveStyle": "outline",
+        "fontSize": 11,
+        "fontFamily": "MesloLGS NF Regular",
+        "letterSpacing": 0,
+        "terminalPadding": 0,
+        "fontWeight": "normal",
+        "customFontStyleSheet": "",
+        "scrollBack": 1000,
+        "scrollSensitivity": 1000,
+        "theme": "catppuccin",
+        "background": "#1e1e2e",
+        "foreground": "#cdd6f4",
+        "cursor": "#f5e0dc",
+        "cursorAccent": "#1e1e2e",
+        "black": "#45475a",
+        "blue": "#89b4fa",
+        "brightBlack": "#585b70",
+        "brightBlue": "#89b4fa",
+        "brightCyan": "#94e2d5",
+        "brightGreen": "#a6e3a1",
+        "brightMagenta": "#f5c2e7",
+        "brightRed": "#a6adc8",
+        "brightWhite": "#a6adc8",
+        "brightYellow": "#f9e2af",
+        "cyan": "#94e2d5",
+        "green": "#a6e3a1",
+        "magenta": "#f5c2e7",
+        "red": "#f38ba8",
+        "white": "#bac2de",
+        "yellow": "#f9e2af"
+    },
+    "bajrangcoder.acode.ayumirage": {
+        "iconPack": true,
+        "folderIcon": true
+    },
+    "acode.plugin.tab": {
+        "monitoring": true,
+        "stickersDepth": 1,
+        "alsoParents": false,
+        "indexSpec": true,
+        "moreInfos": false,
+        "colorizeDelay": "normal",
+        "recording": false,
+        "flows": [
+            "flow.collab.standard",
+            "flow.collab.standup",
+            "flow.quality.documentation",
+            "flow.quality.code_review",
+            "flow.dev.poc",
+            "flow.dev.debugging",
+            "flow.planning.brainstorming",
+            "flow.planning.specs",
+            "flow.planning.requirements"
+        ],
+        "topMost": false,
+        "pomo": false,
+        "pomoWork": "25/5",
+        "pomoHidden": false,
+        "pomoDelays": "⚠️-2min 🩸-30sec",
+        "runningCount": 27
+    },
+    "acode.plugin.macro": {
+        "prefix": "a-",
+        "completing": true,
+        "preset-prefix": "a-",
+        "custom-prefix": "a-",
+        "packs": []
+    },
+    "bajrangcoder.react.snippets": {
+        "snippetDocs": false
+    }
+}
