@@ -6,8 +6,8 @@ echo "[DEPLOY] Installing dependencies on local node..."
 pkg update -y
 pkg install -y python nodejs rust busybox git sqlite clang sshpass tmux
 
-pip install --upgrade pip
-pip install torch scipy numpy sympy networkx flask flask_socketio pyyaml
+Pkg install pip3
+pip3 install torch scipy numpy sympy networkx flask flask_socketio pyyaml
 npm install -g brain.js express
 
 # 2️⃣ Create Folder Structure
