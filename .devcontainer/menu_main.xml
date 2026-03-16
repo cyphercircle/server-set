@@ -1,0 +1,8 @@
+1	<?xml version="1.0" encoding="utf-8"?> 
+2	<menu xmlns:android="http://schemas.android.com/apk/res/android"> 
+3	 
+4	    <item android:id="@+id/white" android:title="White" /> 
+5	    <item android:id="@+id/blue" android:title="Blue" /> 
+6	    <item android:id="@+id/yellow" android:title="Yellow" /> 
+7	 
+8	</menu> 
